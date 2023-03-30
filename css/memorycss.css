@@ -1,43 +1,55 @@
-.container {
+@font-face {
+    font-family: pokemon;
+    src: url(pokemon.ttf);
+    }
+    
+    body {
+    background-image: url('./img/fondo-slowbro.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    
+    .container {
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 100vh;
-    font-family: 'Pokemon Solid', sans-serif;
-    gap: 10px;
+    font-family: pokemon;
+    letter-spacing: 0.1em;
+    gap: 1em;
     max-width: 800px;
     margin: 0 auto;
-}
-
-header {
+    }
+    
+    header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
-}
-
-h1 {
-    font-size: 60px;
-    text-align: center;
-}
-
-#game {
+    }
+    
+    h1 {
+    font-size: 3em;
+    text-transform: uppercase;
+    }
+    
+    #game {
     display: grid;
-    grid-template-columns: repeat(4, 160px);
-    grid-template-rows: repeat(4, 160px);
-    grid-gap: 10px;
-}
-.card {
-    box-shadow: 0 3px 10px rgba(200,200,200, 0.9);
-    border-radius: 10px;
+    grid-template-columns: repeat(4, 20vw);
+    grid-template-rows: repeat(4, 20vw);
+    grid-gap: 1em;
+    }
+    
+    .card {
+    box-shadow: 0 0.5em 1em rgba(0,0,0, 0.5);
+    border-radius: 1em;
     position: relative;
     transform-style: preserve-3d;
     overflow: hidden;
-}
-
-.card > .front, .card > .back {
+    }
+    
+    .card > .front, .card > .back {
     display: flex;
-    font-family: 'Pokemon Solid', sans-serif;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -46,36 +58,32 @@ h1 {
     width: 100%;
     backface-visibility: hidden;
     transition: transform 0.5s;
-}
-
-.back>h2 {
+    }
+    
+    .back > h2 {
     margin: 0;
-    font-size: 16px;
-}
-
-.rotated {
+    font-size: 1em;
+    }
+    
+    .rotated {
     transform: rotateY(180deg);
-}
-
-.front {
+    }
+    
+    .front {
+    background-image: url("./img/pokeball.png");
     background-position: center;
     background-repeat: no-repeat;
     background-color: black;
-}
-
-button {
-    font-size:18px;
+    }
+    
+    button {
+    font-size: 1em;
     background-color: #c62828;
     color: white;
-    border-radius: 5px;
+    border-radius: 0.5em;
     border: none;
-    padding: 10px 20px;
+    padding: 1em 2em;
     cursor: pointer;
-}
-
-body{
-    background-color: skyblue;
-    font-family: 'Pokemon Solid', sans-serif;
-    align-items: center;                                   
-}
-
+    position: center;
+    text-align:center;
+    }

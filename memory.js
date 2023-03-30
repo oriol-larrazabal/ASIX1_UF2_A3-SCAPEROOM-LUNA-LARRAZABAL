@@ -1,4 +1,3 @@
-
 const pokeAPIBaseUrl = "https://pokeapi.co/api/v2/pokemon/";
 const game = document.getElementById('game');
 
@@ -25,7 +24,7 @@ const colors = {
 
 const loadPokemon = async () => {
     const randomIds = new Set();
-    while(randomIds.size < 6){
+    while(randomIds.size < 8){
         const randomNumber = Math.ceil(Math.random() * 150);
         randomIds.add(randomNumber);
     }
@@ -45,11 +44,13 @@ const resetGame = async() => {
         isPaused = false;
     },200)
 }
+
 function nextGame(){
     location="reto4.php";
     window.location(url);
     $_SESSION['nivel3']=TRUE;
 }
+
 const displayPokemon = (pokemon) => {
     pokemon.sort(_ => Math.random() - 0.5);
     const pokemonHTML = pokemon.map(pokemon => {
@@ -92,7 +93,7 @@ const clickCard = (e) => {
             }, 500)    
         }else {
             matches++;
-            if(matches === 6) {
+            if(matches === 8) {
                 console.log("WINNER");
             }
             firstPick = null;
@@ -112,5 +113,3 @@ const rotateElements = (elements) => {
     if(typeof elements !== 'object' || !elements.length) return;
     elements.forEach(element => element.classList.toggle('rotated'));
 }
-
-resetGame();
