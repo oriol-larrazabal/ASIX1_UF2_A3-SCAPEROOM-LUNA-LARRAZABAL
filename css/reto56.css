@@ -2,7 +2,6 @@
     font-family: 'Pokemon Solid', sans-serif;
 }
 body{
-    background-color: skyblue;
     font-family: 'Pokemon Solid', sans-serif;
     align-items: center;                                   
 }
@@ -50,3 +49,71 @@ input.input{
     margin-left: auto;
     margin-right: auto;
 }
+/* Estilos para pantallas grandes */
+@media only screen and (min-width: 768px) {
+    img {
+      width: 20%;
+      height: 20%;
+      display: block;
+      margin: auto;
+    }
+  
+    button.btn {
+      width: 10%;
+      display: block;
+      margin: auto;
+    }
+  
+    label.label,
+    input.input {
+      width: 30%;
+      display: block;
+      margin: auto;
+    }
+  }
+  
+  @media only screen and (max-width: 767px) {
+    img {
+      width: 60%;
+      height: auto;
+      display: block;
+      margin: auto;
+    }
+  
+    button.btn {
+      width: 50%;
+      display: block;
+      margin: 10px auto;
+    }
+  
+    label.label,
+    input.input {
+      width: 80%;
+      display: block;
+      margin: 10px auto;
+    }
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Pokemon Solid', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+  
+  p {
+    font-size: 14px;
+    text-align: center;
+  }
+  

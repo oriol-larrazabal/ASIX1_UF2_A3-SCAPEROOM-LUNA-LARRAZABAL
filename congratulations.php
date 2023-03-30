@@ -23,6 +23,13 @@ if (!isset($_SESSION['nivel6']) || $_SESSION['nivel6'] !== true) {
 <h1>POKÉMON QUIZZ</h1>
 </br>
 </br>
+<style>
+body{
+        background-image: url('./img/fondo-12.webp');
+        background-repeat: no-repeat;
+        background-size: cover;
+        }
+</style>
 <p>Enhorabuena! Has conseguido completar el Quizz. Eres un gran entrenador.</p>
 <img class="acierta" src='./img/oak.png'>
 </br>

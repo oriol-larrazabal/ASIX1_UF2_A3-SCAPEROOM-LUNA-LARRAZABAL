@@ -21,7 +21,6 @@ if (!isset ($_SESSION['nivel2'])) {
 </head>
 <body>
     <div class="container">
-
         <header>
         <h1>POKÉMON QUIZZ</h1>
         <br>
@@ -29,6 +28,13 @@ if (!isset ($_SESSION['nivel2'])) {
         </header>
 </br>
 </br>
+<style>
+          body{
+        background-image: url('./img/fondo-slowbro.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        }
+</style>
 <audio id="myAudio2" preload="auto" loop>
     <source src="./player/Pokémon Rojo Fuego 🔥 y Pokémon Verde Hoja 🍃 Opening musica.mp3" type="audio/mpeg">
 </audio>

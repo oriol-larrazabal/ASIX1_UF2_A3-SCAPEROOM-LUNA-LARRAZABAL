@@ -5,7 +5,7 @@ $preg3 = $_POST['preg3'];
 $preg4 = $_POST['preg4'];
 
 $respuestas_correctas = array(
-    "Eléctrico",
+    "Fuego",
     "Revestimiento metálico",
     "8",
     "3"
