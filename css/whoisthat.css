@@ -1,0 +1,48 @@
+*{
+    font-family: 'Pokemon Solid', sans-serif;
+}
+body{
+    background-color: skyblue;
+    font-family: 'Pokemon Solid', sans-serif;
+    text-align: center;
+    }
+
+h1{
+    font-size: 40px;
+    align-items: center;
+    text-align: center;
+}
+
+p{
+    font-size: 14px;
+    text-align: center;
+}
+img.acierta{
+    padding: 1px;
+    border: 1px solid black;
+    display:block;
+    width: 250px;
+    height: 200px;
+    margin: auto;
+}
+button.btn{
+    padding: 1px;
+    border: 1px solid black;
+    display:block;
+    width: 10%;
+    margin: auto;
+}
+label.label{
+    padding: 1px;
+    border: 1px solid black;
+    display:block;
+    width: 30%;
+    margin: auto
+}
+input.input{
+    padding: 1px;
+    border: 1px solid black;
+    display:block;
+    width: 30%;
+    margin: auto;
+}
