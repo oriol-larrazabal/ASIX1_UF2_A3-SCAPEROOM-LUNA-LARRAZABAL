@@ -45,5 +45,30 @@ input.input{
     width: 30%;
     margin: auto;
 }
-
+@media (max-width: 600px) {
+    * {
+      font-family: 'Pokemon Solid', sans-serif;
+    }
+    body {
+      text-align: center;
+    }
+    h1 {
+      font-size: 30px;
+    }
+    p {
+      font-size: 16px;
+    }
+    img.acierta {
+      width: 80%;
+      height: auto;
+    }
+    button.btn {
+      width: 40%;
+    }
+    label.label,
+    input.input {
+      width: 80%;
+    }
+  }
+  
   
