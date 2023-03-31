@@ -21,6 +21,13 @@ if (!isset ($_SESSION['nivel5'])) {
     <title>POKÉMON QUIZZ</title>
 </head>
 <body>
+<style>
+         body{
+        background-image: url('./img/fondo-arcanine.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        }
+      </style>
 <h1>POKÉMON QUIZZ</h1>
 <br>
 <p>Entrenador esta es tu última prueba. Necesito que resuelvas este problema matemático.</p>

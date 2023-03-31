@@ -11,6 +11,13 @@
     <title>POKÉMON QUIZZ</title>
 </head>
 <body>
+<style>
+        body{
+        background-image: url('./img/fondo-cubone.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        }
+      </style>
 <h1>POKÉMON QUIZZ</h1>
     <p>Hola entrenador. Si quieres pasar de pantalla debes acertar cual es el Pokemon que se esconde. Se que eres un experto. No te será díficil volver a acertar.</p>
 </br>

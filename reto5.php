@@ -21,6 +21,13 @@ if (!isset ($_SESSION['nivel4'])) {
     <title>POKÉMON QUIZZ</title>
 </head>
 <body>
+<style>
+         body{
+        background-image: url('./img/fondo-charmander.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        }
+      </style>
 <h1>POKÉMON QUIZZ</h1>
 <br>
 <p>Contesta de forma correcta estas preguntas. Si fallas, volverás a esta pantalla. Si aciertas todas, pasarás a la siguiente prueba.</p>
