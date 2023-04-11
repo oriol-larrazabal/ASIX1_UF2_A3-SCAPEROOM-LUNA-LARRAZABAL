@@ -56,4 +56,3 @@ if (!isset ($_SESSION['nivel2'])) {
     <script src="memory.js"></script>
 </body>
 </html>
-</body>
